@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/StorageServices.Tests/bin/Debug/netcoreapp3.0
+/StorageServices.Tests/obj
+/UplaodPdfApi.Tests/obj
+/.vs/UploadPdfApi/v16
+/UploadPdf.Storage/bin/Debug/netstandard2.1
+/UploadPdf.Storage/obj
+/UploadPdfApi/obj
