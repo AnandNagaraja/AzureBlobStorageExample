@@ -9,3 +9,5 @@
 /UploadPdf.Storage/bin/Debug/netstandard2.1
 /UploadPdf.Storage/obj
 /UploadPdfApi/obj
+/UplaodPdfApi.Tests/bin/Debug/netcoreapp3.0
+/UploadPdfApi/bin/Debug/netcoreapp3.0
