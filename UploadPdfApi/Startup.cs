@@ -42,7 +42,14 @@ namespace UploadPdfApi
                 setupAction.SwaggerDoc("UploadPDFAPISpecification", new Microsoft.OpenApi.Models.OpenApiInfo()
                 {
                     Title = UploadPdfApi,
-                    Version = "1"
+                    Version = "1",
+                    Description = "Through this API you can manage PDF files in the cloud",
+                    Contact = new Microsoft.OpenApi.Models.OpenApiContact()
+                    {
+                        Email = "anand.nag@gmail.com",
+                        Name = "Anand Nagaraja",
+                        Url = new Uri("https://www.linkedin.com/in/anandnagaraja/")
+                    }
                 });
 
 
