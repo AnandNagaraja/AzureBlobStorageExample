@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UploadPdfApi</name>
+    </assembly>
+    <members>
+        <member name="M:UploadPdfApi.Controllers.UploadPdfController.Get">
+            <summary>
+            Get List of Uploaded PDF Files
+            </summary>
+            <returns> List of Blob</returns>
+        </member>
+        <member name="T:UploadPdfApi.Model.BlobFileInfo">
+            <summary>
+            Uploaded files from blob storage with Name, Location and FileSize
+            </summary>
+        </member>
+        <member name="P:UploadPdfApi.Model.BlobFileInfo.Name">
+            <summary>
+            Name of the uploaded file
+            </summary>
+        </member>
+        <member name="P:UploadPdfApi.Model.BlobFileInfo.Location">
+            <summary>
+            Location of the uploaded file
+            </summary>
+        </member>
+        <member name="P:UploadPdfApi.Model.BlobFileInfo.FileSize">
+            <summary>
+            FileSize of the uploaded File
+            </summary>
+        </member>
+    </members>
+</doc>

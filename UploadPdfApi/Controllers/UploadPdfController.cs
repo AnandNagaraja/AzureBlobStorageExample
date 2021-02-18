@@ -26,6 +26,10 @@ namespace UploadPdfApi.Controllers
             _blobStorage = uploadPdfStorage;
         }
 
+        /// <summary>
+        /// Get List of Uploaded PDF Files
+        /// </summary>
+        /// <returns> List of Blob</returns>
         [HttpGet]
         public List<BlobFileInfo> Get()
         {
